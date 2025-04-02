@@ -3,6 +3,25 @@ body {
 }
 
 .container {
+    background-color: #4C1D95;
     display: flex;
-    justify-content: space-around;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.home-container,
+.guest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-block: 1.5rem;
 }
